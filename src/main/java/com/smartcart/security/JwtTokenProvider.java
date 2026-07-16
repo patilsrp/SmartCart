@@ -13,7 +13,7 @@ import java.util.Date;
 @Component
 public class JwtTokenProvider {
     
-    @Value("${jwt.secret:MyVerySecretKeyForJWTTokenGenerationAndValidationPurposeOnly}")
+    @Value("${jwt.secret:MyVerySecretKeyForJWTTokenGenerationAndValidationPurposeOnlyPadding12345}")
     private String jwtSecret;
     
     @Value("${jwt.expiration:86400000}")
